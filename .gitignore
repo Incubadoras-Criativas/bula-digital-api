@@ -47,3 +47,9 @@
 # Ignorar dump de banco de dados caso você faça algum backup na pasta
 *.sql
 *.dump
+
+# Ignorar arquivos de controle do servidor e links simbólicos
+/shared/pids/*
+/shared/pids/*.pid
+/shared/pids/*.state
+/storage_original/
